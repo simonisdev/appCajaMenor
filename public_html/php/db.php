@@ -1,8 +1,8 @@
 <?php
 $host = 'localhost'; // o la IP del servidor de base de datos
-$dbname = 'ControlFinanzas';
-$username = 'tu_usuario';
-$password = 'tu_contraseña';
+$dbname = 'acm_db';
+$username = 'root';
+$password = '5349#lafuenteDELOSDESEOS';
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname", $username, $password, [
